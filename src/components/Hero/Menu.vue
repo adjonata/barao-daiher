@@ -35,6 +35,7 @@ export default {
     font-weight: 600;
     padding: 8px 15px;
     border-radius: 8px;
+    text-align: center;
     // border: solid 1px #3d3d3d;
 
     &:not(:last-child) {
