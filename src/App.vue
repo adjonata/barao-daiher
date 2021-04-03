@@ -2,19 +2,13 @@
   <div id="app">
     <Hero />
     <Flavors />
+    <Address />
   </div>
 </template>
 
 <script>
-import Hero from './components/Hero'
-import Flavors from './components/Flavors'
-
 export default {
   name: 'App',
-  components: {
-    Hero,
-    Flavors,
-  },
 }
 </script>
 
