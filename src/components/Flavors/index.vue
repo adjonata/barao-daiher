@@ -1,17 +1,14 @@
 <template>
-  <section class="section flavors" id="sabores">
-    <div class="section-content">
-      <h2 class="section-title">Sabores</h2>
-      <div class="flavors-list">
-        <FlavorItem
-          v-for="(flavor, index) in flavors"
-          :key="'flavor_' + index"
-          :image="flavor.image"
-          :title="flavor.title"
-        />
-      </div>
+  <Container id="sabores" class="flavors" title="Sabores">
+    <div class="flavors-list">
+      <FlavorItem
+        v-for="(flavor, index) in flavors"
+        :key="'flavor_' + index"
+        :image="flavor.image"
+        :title="flavor.title"
+      />
     </div>
-  </section>
+  </Container>
 </template>
 
 <script>
