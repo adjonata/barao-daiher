@@ -46,6 +46,15 @@ export default {
       flex-wrap: nowrap;
       justify-content: flex-start;
     }
+
+    .flavor-item {
+      &:first-child {
+        margin-left: 15px;
+      }
+      &:last-child {
+        margin-right: 20px;
+      }
+    }
   }
 }
 </style>
