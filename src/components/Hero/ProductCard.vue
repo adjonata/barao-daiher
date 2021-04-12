@@ -28,9 +28,9 @@ export default {
     display: none;
   }
 
-  border-radius: 15px;
-  background: #0c0702;
-  box-shadow: 0 0 0 4px #fff;
+  // border-radius: 15px;
+  background: #fff;
+  box-shadow: 0 0 0 6px $grey;
 
   display: flex;
   justify-content: center;
@@ -55,6 +55,7 @@ export default {
     .cachaca {
       opacity: 0.8;
       height: 230px;
+      filter: contrast(150%);
 
       @media (max-width: $mobile) {
         height: 180px;
