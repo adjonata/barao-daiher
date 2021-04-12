@@ -3,6 +3,7 @@
     <Hero />
     <Flavors />
     <Address />
+    <Footer />
   </div>
 </template>
 

@@ -34,7 +34,7 @@ export default {
     -30deg,
     $dark 34.67%,
     $dark 34.67%,
-    $yellow 167.29%
+    $blue 167.29%
   );
   display: flex;
   justify-content: center;
