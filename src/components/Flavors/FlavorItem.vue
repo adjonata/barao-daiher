@@ -36,7 +36,7 @@ export default {
   margin: 15px 35px 25px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 15px;
+  border-radius: 7px;
 
   @media (max-width: $mobile) {
     margin: 15px 10px 25px 10px;
@@ -45,7 +45,7 @@ export default {
   &__image {
     width: 170px;
     height: 281.33px;
-    border-radius: 10px 10px 0 0;
+    border-radius: 7px 7px 0 0;
     filter: contrast(110%);
 
     @media (max-width: $mobile) {
@@ -62,7 +62,7 @@ export default {
     font-weight: 600;
     background: $dark-grey;
     color: #f1f1f1;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 7px 7px;
     margin-top: -15px;
     z-index: 10;
   }
