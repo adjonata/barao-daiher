@@ -1,14 +1,14 @@
 <template>
-  <iframe
-    :src="source"
-    width="600"
-    height="450"
-    frameborder="0"
-    style="border: 0"
-    allowfullscreen=""
-    aria-hidden="false"
-    tabindex="0"
-  />
+  <div class="map">
+    <iframe
+      :src="source"
+      frameborder="0"
+      style="border: 0"
+      allowfullscreen=""
+      aria-hidden="false"
+      tabindex="0"
+    />
+  </div>
 </template>
 
 <script>
@@ -22,4 +22,25 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss">
+.map {
+  border: solid 5px $dark-grey;
+  box-shadow: -5px 5px 0 0 $yellow;
+
+  // In Mobile
+  @media (max-width: $mobile) {
+    width: 100%;
+  }
+
+  iframe {
+    width: 800px;
+    height: 400px;
+
+    // In Mobile
+    @media (max-width: $mobile) {
+      width: 100%;
+      height: 230px;
+    }
+  }
+}
+</style>
