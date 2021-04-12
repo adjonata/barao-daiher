@@ -8,7 +8,7 @@ export default [
     title: 'Onde encontrar',
   },
   {
-    to: '#',
+    to: '#contato',
     title: 'Contato',
   },
 ]

@@ -1,5 +1,5 @@
 <template>
-  <Container background="#242424">
+  <Container background="#242424" id="contato">
     <footer>
       <div class="copyright">© Barão Daiher</div>
       <Links />
