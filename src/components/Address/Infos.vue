@@ -55,7 +55,7 @@ export default {
   // In Mobile
   @media (max-width: $mobile) {
     width: 100%;
-    margin-top: 30px;
+    padding: 45px 0px 35px;
   }
 
   // In Tablet and Desktop
