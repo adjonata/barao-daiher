@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="container" :style="background ? { background } : null">
     <div class="container-content">
       <h3 class="container-title" v-if="title">{{ title }}</h3>
       <slot />
@@ -12,6 +12,7 @@ export default {
   name: 'Container',
   props: {
     title: String,
+    background: String,
   },
 }
 </script>
