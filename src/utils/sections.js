@@ -4,8 +4,8 @@ export default [
     title: 'Sabores',
   },
   {
-    to: '#onde-nos-encontrar',
-    title: 'Onde nos encontrar',
+    to: '#onde-encontrar',
+    title: 'Onde encontrar',
   },
   {
     to: '#',
