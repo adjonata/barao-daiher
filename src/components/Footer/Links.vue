@@ -44,11 +44,18 @@ export default {
 
     span {
       margin-bottom: 4px;
+      font-weight: 600;
+      letter-spacing: 1px;
     }
 
     a {
       text-decoration: none;
       color: $grey;
+      transition: color 0.3s;
+      letter-spacing: 0.5px;
+    }
+    a:hover {
+      color: $burned-yellow;
     }
   }
 }

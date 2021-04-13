@@ -27,6 +27,8 @@ export default {
 <style lang="scss" scoped>
 .flavors {
   margin-top: 50px;
+  padding-left: 0;
+  padding-right: 0;
 
   @media (max-width: $mobile) {
     margin-top: 20px;

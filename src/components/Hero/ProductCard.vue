@@ -30,7 +30,7 @@ export default {
 
   // border-radius: 15px;
   background: #fff;
-  box-shadow: 0 0 0 6px $grey;
+  box-shadow: 0 0 0 5px $dark-grey, -8px 8px 0 2px $grey;
 
   display: flex;
   justify-content: center;
