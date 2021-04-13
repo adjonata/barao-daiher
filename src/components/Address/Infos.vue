@@ -4,7 +4,7 @@
 
     <ul class="address-infos__list">
       <li v-for="(address, i) in addresses" :key="'address_' + i">
-        <span class="material-icons">place</span>
+        <span class="mdi mdi-map-marker"></span>
         <h4>{{ makeAddress(address) }}</h4>
       </li>
     </ul>
@@ -13,7 +13,7 @@
 
     <ul class="address-infos__list">
       <li v-for="(telephone, i) in telephones" :key="'address_' + i">
-        <span class="material-icons">phone</span>
+        <span class="mdi mdi-phone"></span>
         <a :href="'tel:' + telephone">{{ telephone }}</a>
       </li>
     </ul>

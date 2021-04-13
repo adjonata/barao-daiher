@@ -6,8 +6,9 @@
       :key="'social_' + i"
       :href="social.link || '#'"
       class="socials__link"
-      :style="social.background ? { background: social.background } : {}"
+      :style="social.borderColor ? { borderColor: social.borderColor } : {}"
     >
+      <span :class="['mdi', `mdi-${social.mdiIcon}`]"></span>
       {{ social.name }}
     </a>
   </div>
@@ -21,12 +22,14 @@ export default {
       {
         name: 'Whatsapp',
         link: 'https://api.whatsapp.com/send?phone=5515996712158',
-        background: '#25D366',
+        borderColor: '#25D366',
+        mdiIcon: 'whatsapp',
       },
       {
         name: 'Facebook',
         link: 'https://www.facebook.com/profile.php?id=100002789737374',
-        background: '#4267B2',
+        borderColor: '#4267B2',
+        mdiIcon: 'facebook',
       },
     ],
   }),
@@ -53,7 +56,8 @@ export default {
     color: #f1f1f1;
     font-size: 16px;
     width: 200px;
-    line-height: 50px;
+    line-height: 45px;
+    border: solid 2px;
 
     @media (max-width: $mobile) {
       line-height: 40px;
@@ -61,6 +65,13 @@ export default {
 
     margin: 8px;
     border-radius: 8px;
+
+    span {
+      margin-right: 5px;
+      &::before {
+        font-size: 20px;
+      }
+    }
   }
 }
 </style>
